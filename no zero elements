@@ -1,0 +1,26 @@
+l=[]
+n=int(input())
+for i in range(1,n+1):
+    x=int(input())
+    l.append(x)
+print(l)
+m=[]
+c=0
+for i in range(n):
+    if l[i]!=0:
+        c=c+1
+        m.append(l[i])
+print(" non-zero elements=",m)
+print("count=",c)
+
+OUTPUT::
+
+5
+56
+-9
+0
+87
+0
+[56, -9, 0, 87, 0]
+ non-zero elements= [56, -9, 87]
+count= 3
