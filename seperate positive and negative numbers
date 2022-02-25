@@ -15,3 +15,14 @@ for j in range(Number):
 
 print("Element in Positive List is : ", Positive)
 print("Element in Negative List is : ", Negative)
+
+output::
+
+Please enter the Total Number of List Elements : 5
+Please enter the Value of 1 Element : -9
+Please enter the Value of 2 Element : 8
+Please enter the Value of 3 Element : 7
+Please enter the Value of 4 Element : -5
+Please enter the Value of 5 Element : -3
+Element in Positive List is :  [8, 7]
+Element in Negative List is :  [-9, -5, -3]
